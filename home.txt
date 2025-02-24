@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        img {
+            width: 200px; /* Adjust image size as needed */
+        }
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .left-button {
+            background-color: #ff66b2; /* Red pink */
+        }
+        .right-button {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img src="bubu1.jpg" alt="bubu1">
+    <div class="button-container">
+        <button class="button left-button" onclick="location.href='page2.html'">Left</button>
+        <button class="button right-button" onclick="location.href='endpage.html'">Right</button>
+    </div>
+</body>
+</html>
